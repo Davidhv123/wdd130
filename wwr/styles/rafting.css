@@ -61,7 +61,6 @@ header img {
     color: #FFFFFF;
     padding: 10px 20px;
     text-decoration: none;
-    transition: 0.s color 0.05s;
 }
 
 .navigation a:hover {
@@ -84,17 +83,14 @@ header img {
 .item1 {
     grid-column: 2;
     grid-row: 2;
-} */
+} 
 
 
 
 
+/* main for About Us */
 
-/* main for about us*/
 
-h2, h1 {
-    text-align: center;
-}
 .hero {
     height: 30em;
 }
@@ -149,6 +145,7 @@ article p {
 }
 
 h2 {
+    text-align: center;
     font-family: 'Caveat';
 }
 
@@ -378,7 +375,7 @@ input[type="submit"] {
     }
 
     #image_background_of_trip {
-        width: auto;
+        width: 100%;
         position: relative;
         bottom: 15px;
     }
@@ -391,7 +388,7 @@ input[type="submit"] {
         grid-template-rows: 250px;
         width: auto;
         position: relative;
-        bottom: 296px;
+        bottom: 305px;
         color:aliceblue;
         background-color: rgba(52, 52, 52, 0.514);
         font-family: "Caveat";
@@ -460,18 +457,13 @@ input[type="submit"] {
     }
 
     .awesome-button {
-        background-color: #008077;
-        color: white;
-        border: none;
-        padding: 15px 70px;
-        font-size: 16px;
-        font-weight: bold;
-        letter-spacing: 1px;
-        border-radius: 5px;
-        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-        transition: all 0.3s ease;
-        cursor: pointer;
-        text-align: center;
+        display: inline-block;
+    background-color: #00867d;
+    color: white;
+    padding: 10px 40px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
     }
     
     .awesome-button:hover {
