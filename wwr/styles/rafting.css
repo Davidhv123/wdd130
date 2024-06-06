@@ -129,19 +129,23 @@ h2, h1 {
 #costumer {
     position: absolute;
     width: 300px;
-    top: 350px;
+    top: 380px;
     right: 122px;
-    background-color: #068273b3;
+    background-color: #068274e7;
     padding: 30px 30px 30px 700px;
+    border-radius: 15px;
 }
 
 article p {
     position: absolute;
     top: 410px;
-    left: 130px;
-    margin: 30px 500px 10px 10px;
-    color: aliceblue;
+    left: 150px;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 500px;
+    color: rgb(255, 255, 255);
     font-family: 'Helvetica', sans-serif;
+    text-align: center;
 }
 
 h2 {
